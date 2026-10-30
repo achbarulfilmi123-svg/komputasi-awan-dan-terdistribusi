@@ -1,7 +1,7 @@
 # Jurnal Proses — Tugas 6
 
 ## Implementasi find_successor
-- Kesalahan pertama yang ditemui (mis. lupa wrap-around di ring): ...
+- Kesalahan pertama yang ditemui (mis. lupa wrap-around di ring): Kesalahan pertama yang ditemui (mis. lupa wrap-around di ring): Pada awalnya, logika pencarian hanya melakukan iterasi untuk mencari node dengan ID yang lebih besar atau sama dengan (>=) dari key_hash. Akibatnya, ketika nilai key_hash lebih besar daripada seluruh ID node yang ada di dalam ring, fungsi gagal menemukan penanggung jawab karena tidak memperhitungkan sifat melingkar (wrap-around) dari topologi Chord.
 - Cara memperbaikinya: ...
 
 ## Skenario join/leave
